@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lato', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  /* Navbar area */
+
+  nav {
+      height: 9rem;
+      padding: 0 !important;
+      background-color: black;
+  }
+
+  .menu-bar ul>li{
+      padding-right: 2rem;
+  }
+
+  nav .form-control::placeholder { 
+    color: whitesmoke;
+  }
+
+  nav .input-icon .icon-style {
+      padding-right: 2.5rem;
+      font-size: 1.5rem;
+      color:whitesmoke;
+  }
+
+  /* banner area */
+  .banner-area {
+      /* width: 100%; */
+      height: calc(100vh - 9rem);
+      background-image: url(./img/banner-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+      padding: 0;
+  }
+
+  .banner-wrapper {
+      width: 500vw;
+      transition: all 1.5s ease-in-out;
+  }
+
+  .banner-item {
+      width: 100vw;
+      height: calc(100vh - 9rem);
+      position: relative;
+  }
+
+  .banner-area .image-bg {
+      background-color: #008080;
+      width: 800px;
+      height: 800px;
+      border-radius: 50%;
+      position: absolute;
+      z-index:1;
+  }
+
+ .banner-img {
+      position: absolute;
+      z-index:1;
+  }
+
+  .banner-price {
+      position: absolute;
+      top: 20%;
+      left: 15%;
+      font-size: 4rem;
+      color: #008080;
+      border: 1px solid gray;
+      z-index:1;
+  }
+
+  .banner-title {
+      position: absolute;
+      top: 20%;
+      right: 7%;
+      font-size: 4rem;
+      z-index:1;
+  }
+
+  .btn-style {
+      position: absolute;
+      top: 60%;
+      padding: 0 1rem;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      background-color: #000;
+      border: 1px solid whitesmoke;
+      z-index:1;
+  }
+
+  .btn-style:hover {
+      background-color: #fff;
+      color: #000;
+      border: none;
+  }
+
+  .banner-area .image-bg:nth-child(1) {
+      background-color: #369E62;
+  }
+
+  .banner-area .image-bg:nth-child(2) {
+      background-color: #663399;
+}
+
+ .banner-area .image-bg:nth-child(4) {
+      background-color: #6495ED;
+}
+
+ .banner-area .image-bg:nth-child(5) {
+      background-color: #7C7350;
+}
+
+.banner-price:nth-child(1) {
+    color: #369E62;
+}
+.banner-price:nth-child(2) {
+    color: #663399;
+}
+.banner-price:nth-child(3) {
+    color: #6495ED;
+}
+.banner-price:nth-child(4) {
+    color: #7C7350;
+}
+
+/* Section-1: Benefits   */
+
