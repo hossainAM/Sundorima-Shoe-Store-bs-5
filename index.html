@@ -120,27 +120,89 @@
     </header>
     <!-- Main section -->
     <!-- section-1: benefit -->
-    <section class="container benefits">
-      <div class="row d-flex offered-benefits">
-        <div class="col-6 col-lg-3 benefit-item">
-          <img class="img-fluid w-25" src="./img/shipping.png" alt="">
-          <h4 class="benefit-title">FREE SHIPPING</h4>
-          <p class="benefit-para">Free worldwide <br>shipping on all <br>orders.</p>
+    <section class="container-fluid benefits py-5">
+      <div class="row d-flex justify-content-space-between offered-benefits">
+        <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center benefit-item">
+          <img class="img-fluid" src="./img/shipping.png" alt="">
+          <h5 class="benefit-title fw-bold py-3">FREE SHIPPING</h5>
+          <p class="benefit-para text-center text-secondary">Free worldwide <br>shipping on all <br>orders.</p>
         </div>
-        <div class="col-6 col-lg-3 benefit-item">
-          <img class="img-fluid w-25" src="./img/return.png" alt="">
-          <h4 class="benefit-title">30 DAYS RETURN</h4>
-          <p class="benefit-para">No question return <br>and easy refund in 14<br>days.</p>
+        <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center benefit-item">
+          <img class="img-fluid" src="./img/return.png" alt="">
+          <h5 class="benefit-title fw-bold py-3">30 DAYS RETURN</h5>
+          <p class="benefit-para text-center text-secondary">No question return <br>and easy refund in 14<br>days.</p>
         </div>
-        <div class="col-6 col-lg-3 benefit-item">
-          <img class="img-fluid w-25" src="./img/shipping.png" alt="">
-          <h4 class="benefit-title">GIFT CARDS</h4>
-          <p class="benefit-para">Buy gift cards and <br>use coupon codes<br>easily.</p>
+        <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center benefit-item">
+          <img class="img-fluid" src="./img/shipping.png" alt="">
+          <h5 class="benefit-title fw-bold py-3">GIFT CARDS</h5>
+          <p class="benefit-para text-center text-secondary">Buy gift cards and <br>use coupon codes<br>easily.</p>
         </div>
-        <div class="col-6 col-lg-3 benefit-item">
-          <img class="img-fluid w-25" src="./img/contact.png" alt="">
-          <h4 class="benefit-title">CONTACT US!</h4>
-          <p class="benefit-para">Keep in touch via<br>email and support<br>system.</p>
+        <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center benefit-item">
+          <img class="img-fluid" src="./img/contact.png" alt="">
+          <h5 class="benefit-title fw-bold py-3">CONTACT US!</h5>
+          <p class="benefit-para text-center text-secondary">Keep in touch via<br>email and support<br>system.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section-2: Product category -->
+    <section class="container-fluid product-category">
+      <div class="row d-flex product-details">
+        <div class="col-12 col-lg-6 product-image">
+          <img class="img-fluid" src="./img/air.png" alt="shoeImg">
+        </div>
+        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center product-info">
+          <h1 class="product-title">Air Force</h1>
+          <span class="product-price">$119</span>
+          <p class="product-para text-secondary">
+            Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda dolorum doloremque sapiente aliquid aperiam.
+          </p>
+          <div class="d-flex d-inline mb-3">
+            <div class="productColorOne"></div>
+            <div class="productColorTwo ms-2"></div>
+          </div>
+          <div class="d-flex d-inline py-2">
+            <div class="productSize text-center"><span class="fs-5 fw-bold">42</span></div>
+            <div class="productSize text-center"><span class="fs-5 fw-bold">42</span></div>
+            <div class="productSize text-center"><span class="fs-5 fw-bold">44</span></div>
+          </div>
+            <a href="#"><button type="button" class="buyNowBtn">BUY NOW!</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-3: Photo gallery -->
+    <section class="container photo-gallery">
+      <div class="row gx-5 d-flex justify-content-center align-items-center all-images">
+        <div class="col-12 col-lg-4 ps-0 img-first">
+          <h2 class="text-start ps-4 fw-bold">Be Yourself!</h2>
+          <img class="img-fluid pt-4" src="./img/Nike-1.jpeg" alt="nikeImg">
+        </div>
+        <div class="col-12 col-lg-4 img-middle">
+          <img class="img-fluid" src="./img/Nike-2.jpeg" alt="nikeImg">
+          <h2 class="text-start pt-4 fw-bold">This is the First Day of Your New Life</h2>
+        </div>
+        <div class="col-12 col-lg-4 pe-0">
+          <h2 class="text-start fw-bold">Just Do it!</h2>
+          <img class="img-fluid" src="./img/Nike-3.jpeg" alt="nikeImg">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section-4: New collection -->
+    <section class="container-fluid my-5 newCollection">
+      <div class="row d-flex gx-0 collectionDetails">
+        <div class="col-12 col-lg-4 collectionImg">
+          <img class="img-fluid" src="./img/Nike-4.jpeg" alt="collectionImage">
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center collectionText">
+          <h5 class="text-white">WINTER NEW ARRIVALS</h5>
+          <h2 class="text-white py-5">New Season</h2>
+          <h2 class="text-white">New Collection</h2>
+          <a href="#"><button type="button" class="newCollectionBtn">CHOOSE YOUR STYLE</button></a>
+        </div>
+        <div class="col-12 col-lg-4 collectionImg">
+          <img class="img-fluid" src="./img/Nike-5.jpeg" alt="collectionImage">
         </div>
       </div>
     </section>

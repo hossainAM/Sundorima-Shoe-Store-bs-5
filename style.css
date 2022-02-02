@@ -120,18 +120,154 @@
       background-color: #7C7350;
 }
 
-.banner-price:nth-child(1) {
+ .banner-price:nth-child(1) {
     color: #369E62;
 }
-.banner-price:nth-child(2) {
+ .banner-price:nth-child(2) {
     color: #663399;
 }
-.banner-price:nth-child(3) {
+ .banner-price:nth-child(3) {
     color: #6495ED;
 }
-.banner-price:nth-child(4) {
+ .banner-price:nth-child(4) {
     color: #7C7350;
 }
 
 /* Section-1: Benefits   */
 
+.benefit-item img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+/* Section-2: product category */
+
+.product-details {
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.product-details img {
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+}
+
+.product-info {
+    padding: 0 2rem;
+}
+
+.product-title {
+    position: absolute;
+    top: 25%;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.2rem 0;
+}
+
+.product-para {
+    font-size: 1.2em;
+}
+
+.productColorOne  {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.productColorTwo  {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.productSize {
+    width: 5rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    margin-right: 1rem;
+    line-height: 2.5rem;
+    overflow-y: hidden;
+}
+
+.buyNowBtn {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    padding: 0 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid whitesmoke;
+    z-index:1;
+}
+
+.buyNowBtn:hover {
+    background-color: whitesmoke;
+    color: #000;
+    border: none;
+}
+
+/* Section-3: photo gallery */
+ .photo-gallery {
+    padding: 5rem 0;
+}
+
+.all-images {
+    height: 100vh;
+}
+
+.img-first {
+    position: relative;
+    top: 1rem;
+}
+
+.img-middle {
+    position:relative;
+    bottom: 0.5rem;
+}
+
+/* Section-4: New collection */
+.newCollection {
+    height: 500px;
+    overflow-y: hidden;
+}
+
+.collectionText {
+    background-color: black;
+    padding-bottom: 300px;
+}
+
+.collectionText h2 {
+    font-size: 3rem;
+}
+
+.collectionText a {
+    padding-top: 2rem;
+}
+
+.newCollectionBtn {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid white;
+}
+
+.newCollectionBtn:hover {
+    background-color: whitesmoke;
+    border: none;
+}
