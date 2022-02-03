@@ -271,3 +271,26 @@
     background-color: whitesmoke;
     border: none;
 }
+
+/* Footer Area */
+.footer-area {
+    padding: 0 4rem;
+}
+
+.footer-area ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-area h5 {
+    font-weight: 700;
+}
+
+.footer-area .joinBtn {
+    background-color: black;
+    color: #fff;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-whatsapp {
+    font-size: 1.5em;
+}
